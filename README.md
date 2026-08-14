@@ -15,8 +15,9 @@ Spring Mail para enviar o email para os usuários que forem se cadastrando na pl
 
 >PostgreSQL: Base de dados
 
-RABBIT MQ: Broker/ Servidor
-CLOUD AMQP: Plataforma para configurar e monitorar os processos de fila(queues) do broker(servidor)
+>RABBIT MQ: Broker/ Servidor
+
+>CLOUD AMQP: Plataforma para configurar e monitorar os processos de fila(queues) do broker(servidor)
 
 >SMTP GMAIL: Para fazer o envio de Email
 
@@ -34,6 +35,6 @@ O consumidor é responsável por receber e processar as mensagens que são publi
 Ele se conecta ao broker (RabbitMQ) e se inscreve em filas ou trocas específicas para receber mensagens relevantes para sua funcionalidade.
 Os consumidores podem processar as mensagens recebidas de várias maneiras, como executar tarefas, gerar respostas, atualizar dados ou disparar eventos adicionais no sistema.
 
-Exemplos de consumidores podem ser: processadores de eventos, serviços de backend, trabalhadores assíncronos ou microsserviços que respondem a mensagens recebidas.
+>Exemplos de consumidores podem ser: processadores de eventos, serviços de backend, trabalhadores assíncronos ou microsserviços que respondem a mensagens recebidas.
 
 
